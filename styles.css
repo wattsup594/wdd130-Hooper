@@ -94,7 +94,6 @@ main {
 
 .timeline-entry {
     background-color: #2c2c2c;
-    transition: background-color 0.3s ease;
 }
 
 .timeline-entry:nth-child(even) {
@@ -102,13 +101,14 @@ background-color: #333;
 }
 
 .timeline-entry:hover {
-    background-color: rgba(211, 47, 47, 0.1);
+    background-color: rgba(255, 232, 31, 0.08);
+    transition: background-color 0.3s ease;
 }
 
 .timeline-entry:hover .timeline-col-1,
 .timeline-entry:hover .timeline-col-2,
 .timeline-entry:hover .timeline-col-3 {
-    color: var(--red);
+    color: #FFE81F;
     cursor: default;
 }
 

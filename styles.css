@@ -7,9 +7,12 @@
 
 body {
     margin: 0;
-    background-color: var(--dark-bg);
+    background: url(hyperspace.gif) center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: var(--white);
     font-family: 'Roboto', sans-serif;
+
 
 }
 

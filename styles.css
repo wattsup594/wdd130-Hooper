@@ -100,6 +100,17 @@ main {
 background-color: #333;
 }
 
+.timeline-entry:hover {
+    background-color: rgba(211, 47, 47, 0.1);
+}
+
+.timeline-entry:hover .timeline-col-1,
+.timeline-entry:hover .timeline-col-2,
+.timeline-entry:hover .timeline-col-3 {
+    color: var(--red);
+    cursor: default;
+}
+
 .timeline-col-1,
 .timeline-col-2,
 .timeline-col-3 {

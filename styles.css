@@ -154,7 +154,7 @@ footer {
 
 .movie_main {
     display: grid;
-    grid-template-columns: 660px 330px;
+    grid-template-columns: 600px 330px;
     grid-gap: 10px;
     margin-bottom: 50px;
 }
